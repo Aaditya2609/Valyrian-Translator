@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
-:root{
-    --primary:#331C0E;
-    --secondary:#FFF190;
-
-}
 *
 {
     margin: 0px;
@@ -12,21 +7,25 @@
 body
 {
     font-family: 'Cinzel', serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
+
 header
 {
     text-align: center;
-    background-color: var(--primary);
-    color: var(--secondary);
 }
 header h1
 {
-    font-size: 55px;
+    font-size: 45px;
 }
 p
 {
     text-align: center;
-    width: 900px;
+    width: 85%;
     margin: auto;
     font-size: 20px;
     font-weight: 400;
@@ -36,12 +35,13 @@ textarea
     display: block;
     text-align: center;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     padding:1rem;
-    height:22vh;
-    width:60%;
+    height:20vh;
+    width:50%;
     font-size: 18px;
     font-family: 'Cinzel', serif;
+    border-radius: 2rem;
 }
 button
 {
@@ -49,17 +49,47 @@ button
     height: 50px;
     width: 300px;
     margin: auto;
+    border-radius: 3rem;
     font-size: large;
     font-family: 'Cinzel', serif;
+    background-color: black;
+    color: white;
     
+}
+#span-text
+{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    background-color: black;
+    border-radius: 2rem;
+    height: 22px;
+    width:300px;
+
+}
+#span-right
+{
+    display: block;
+    text-align: right;
+    margin-bottom: 0rem;
 }
 #output
 {
-    height: 11vh;
-    width:50%;
+    height: 15vh;
+    width:40%;
     text-align: center;
     margin: auto;
     border: solid 1px black;
     background-color: white;
+    border-radius: 2rem;
+    color:black;
+    font-size: 18px;
+}
+footer{
+    margin: 1rem;
+    padding: 1rem;
+
 }
 
