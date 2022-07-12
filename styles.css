@@ -84,6 +84,7 @@ button
     border: solid 1px black;
     background-color: white;
     border-radius: 2rem;
+    padding:1rem;
     color:black;
     font-size: 18px;
 }
