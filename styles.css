@@ -20,7 +20,7 @@ header
 }
 header h1
 {
-    font-size: 45px;
+    font-size: 55px;
 }
 p
 {
@@ -39,7 +39,7 @@ textarea
     padding:1rem;
     height:20vh;
     width:50%;
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Cinzel', serif;
     border-radius: 2rem;
 }
@@ -65,7 +65,7 @@ button
     padding: 0.25rem;
     background-color: black;
     border-radius: 2rem;
-    height: 22px;
+    height: 25px;
     width:300px;
 
 }
