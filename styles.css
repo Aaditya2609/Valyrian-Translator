@@ -37,9 +37,9 @@ textarea
     margin: auto;
     margin-top: 0.5rem;
     padding:1rem;
-    height:20vh;
-    width:50%;
-    font-size: 25px;
+    height:25vh;
+    width:60%;
+    font-size: 22px;
     font-family: 'Cinzel', serif;
     border-radius: 2rem;
 }
@@ -77,7 +77,7 @@ button
 }
 #output
 {
-    height: 15vh;
+    height: 12vh;
     width:40%;
     text-align: center;
     margin: auto;
@@ -86,7 +86,7 @@ button
     border-radius: 2rem;
     padding:1rem;
     color:black;
-    font-size: 25px;
+    font-size: 22px;
 }
 footer{
     margin: 1rem;
